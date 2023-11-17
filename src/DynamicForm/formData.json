@@ -1,0 +1,64 @@
+[
+  {
+    "name": "nama",
+    "label": "Nama Lengkap",
+    "placeholder": "",
+    "type": "text",
+    "maxLength": 16,
+    "keyboardType": "default"
+  },
+  {
+    "name": "birthDate",
+    "label": "Tanggal Lahir",
+    "placeholder": "",
+    "type": "date"
+  },
+  {
+    "name": "nik",
+    "label": "NIK",
+    "placeholder": "",
+    "type": "number",
+    "maxLength": 16,
+    "keyboardType": "numeric"
+  },
+  {
+    "name": "npwp",
+    "label": "NPWP",
+    "placeholder": "Opsional",
+    "type": "number",
+    "maxLength": 16,
+    "keyboardType": "numeric"
+  },
+  {
+    "name": "phoneNumber",
+    "label": "Phone Number",
+    "placeholder": "",
+    "type": "number",
+    "maxLength": 12,
+    "keyboardType": "numeric"
+  },
+  {
+    "name": "email",
+    "label": "Email",
+    "placeholder": "",
+    "type": "email",
+    "maxLength": 30,
+    "keyboardType": "email-address"
+  },
+  {
+    "name": "password",
+    "label": "Password",
+    "placeholder": "",
+    "type": "password",
+    "maxLength": 16,
+    "keyboardType": "default"
+  },
+  {
+    "name": "confirmPassword",
+    "label": "Confirm Password",
+    "placeholder": "",
+    "type": "password",
+    "maxLength": 16,
+    "keyboardType": "default"
+  }
+]
