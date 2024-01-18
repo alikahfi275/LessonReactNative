@@ -20,6 +20,8 @@ import {PopoverStyledBackdropShowcase} from './src/UIKitten/PopOver';
 import ProfileComponent from './src/ProfileComponent/ProfileComponent';
 import DynamicForm from './src/DynamicForm/DynamicForm';
 import FingerPrint from './src/Biometrik/FingerPrint';
+import PinCodeScreen from './src/PinCode/PinCodeScreen';
+import InfiniteScroll from './src/infiniteScrollFlatlist/InfiniteScroll';
 
 const Stack = createNativeStackNavigator();
 
@@ -57,7 +59,7 @@ function App() {
       <Provider store={store}>
         <NavigationContainer>
           <Stack.Navigator screenOptions={{headerShown: false}}>
-            <Stack.Screen name="FingerPrint" component={FingerPrint} />
+            <Stack.Screen name="infinite" component={InfiniteScroll} />
           </Stack.Navigator>
         </NavigationContainer>
       </Provider>
